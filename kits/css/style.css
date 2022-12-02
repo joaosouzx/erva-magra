@@ -1,0 +1,171 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.kits h1 {
+  color: #798a60;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.kits h1 span {
+  color: #fc7406;
+}
+.kits {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.kits .col-12 {
+  margin-bottom: 1rem;
+}
+.row {
+  margin-top: 2rem;
+}
+.card {
+  position: relative;
+  border-radius: 35px;
+  padding: 2rem 1rem;
+  text-align: center;
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.25);
+  width: fit-content;
+  margin: auto;
+}
+
+.tituloKit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3rem;
+
+  background-color: #798a60;
+  color: #fff;
+  border-radius: 35px 35px 0 0;
+}
+
+.tituloKit h3 {
+  text-align: center;
+  line-height: 3rem;
+  font-weight: 700;
+}
+.card img {
+  max-width: 200px;
+  display: block;
+  margin: 2rem auto 1rem auto;
+}
+
+.card h5 span {
+  background-color: #fc7406;
+  color: #fff;
+  padding: 0.2rem 0.7rem;
+  border-radius: 6px;
+  font-weight: 700;
+}
+.card h3 {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.card h2 {
+  font-weight: 700;
+}
+.card button {
+  background-color: #3ea425;
+  color: #fff;
+  width: 70%;
+  margin: auto;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.card .frete {
+  margin-top: 1rem;
+}
+.card .imgFrete {
+  margin: 0;
+  display: inline;
+  width: 30px;
+}
+
+.sec2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.sec2 h3 span {
+  color: #798a60;
+}
+
+.sec2 h3 {
+  text-align: center;
+}
+.icones {
+  max-width: 150px;
+  display: block;
+  margin: 2rem auto 1rem auto;
+}
+.sec2 h6 {
+  text-align: center;
+}
+.sec3 {
+  text-align: center;
+}
+.sec3 h4 span {
+  color: #798a60;
+}
+.sec3 img {
+  max-width: 250px;
+  display: block;
+  margin: auto;
+}
+.sec4 h5 span {
+  color: #798a60;
+}
+
+.sec4 {
+  text-align: center;
+  margin: 70px auto;
+}
+
+.sec4 img {
+  display: block;
+  margin: auto;
+  max-width: 150px;
+}
+
+footer {
+  background-color: #798a60;
+  padding: 1rem 0;
+  text-align: center;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer img {
+  margin: 1rem auto;
+  max-width: 250px;
+}
+
+.copy {
+  text-align: center;
+  background-color: #8f9c7c;
+}
+
+@media screen and (max-width: 767px) {
+  .card h5 span {
+    font-size: 0.8rem;
+  }
+
+  .card button {
+    font-size: 1.3rem;
+  }
+}
